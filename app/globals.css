@@ -1,0 +1,246 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 25s linear infinite;
+  will-change: transform;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+:root {
+  --font-baloo: 'Baloo 2', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-space: 'Space Grotesk', monospace;
+  /* Tell browsers this site is light-only. Without this, phones/browsers
+     with a system dark-mode or "force dark" setting will auto-invert the
+     default colors of native form controls (input/textarea/select) and can
+     turn their text white on a white field even though the CSS below never
+     asked for that. This is the standard fix for that exact symptom. */
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #FBF6EC;
+  color: #14213D;
+}
+
+::selection {
+  background-color: #F4A300;
+  color: #14213D;
+}
+
+/* thin tricolor scroll progress bar */
+#scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  transform-origin: left;
+  background: linear-gradient(90deg, #E85D2C, #F4A300 33%, #FBF6EC 50%, #0B6E4F 66%, #1D3E82 100%);
+  z-index: 60;
+}
+
+.text-outline {
+  -webkit-text-stroke: 1.5px #14213D;
+  color: transparent;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+}
+
+.paper-texture {
+  background-image:
+    radial-gradient(rgba(20,33,61,0.04) 1px, transparent 1px);
+  background-size: 14px 14px;
+}
+
+.section-eyebrow {
+  font-family: var(--font-space);
+  letter-spacing: 0.18em;
+}
+
+/* custom focus ring for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #E85D2C;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Wave divider */
+.wave-divider {
+  display: block;
+  width: 100%;
+  height: 60px;
+}
+
+
+
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+
+  .contribution-modal,
+  .contribution-modal * {
+    visibility: visible !important;
+  }
+
+  .contribution-modal {
+    position: absolute !important;
+    left: 50% !important;
+    top: 20px !important;
+    transform: translateX(-50%) !important;
+    width: 100% !important;
+    max-width: 600px !important;
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+  }
+
+  .contribution-modal button {
+    display: none !important;
+  }
+
+  @page {
+    size: A4;
+    margin: 15mm;
+  }
+}
+
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.rotate-y-90 {
+  transform: rotateY(90deg);
+}
+
+.rotate-y-0 {
+  transform: rotateY(0deg);
+}
+
+
+
+@keyframes title-reveal {
+  0% {
+    clip-path: inset(0 100% 0 0);
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+
+  100% {
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.title-shine {
+  display: inline-block;
+
+  color: #fbf6ec;
+
+  /* LEFT → RIGHT reveal */
+  clip-path: inset(0 100% 0 0);
+
+  opacity: 0;
+
+  animation: title-reveal 2.2s cubic-bezier(0.22, 1, 0.36, 1)
+    0.3s 1 forwards;
+}
+
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .title-shine {
+    animation: none;
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Print only the membership card on the member dashboard */
+@media print {
+  body * { visibility: hidden !important; }
+  #membership-card, #membership-card * { visibility: visible !important; }
+  #membership-card {
+    position: fixed !important;
+    left: 50% !important;
+    top: 40px !important;
+    transform: translateX(-50%) !important;
+    width: 560px !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+
+
+/* Zoom icon on images: hidden until the image is hovered, then soft/translucent */
+.zoom-btn {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease, background-color 0.2s ease;
+}
+*:hover > .zoom-btn,
+.zoom-btn:focus-visible {
+  opacity: 0.65;
+  pointer-events: auto;
+}
+.zoom-btn:hover {
+  opacity: 0.95;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+
+/* Admin panel: slim scrollbars for the page area and the sidebar link list */
+.admin-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(20, 33, 61, 0.35) transparent;
+}
+.admin-scroll::-webkit-scrollbar { width: 8px; height: 8px; }
+.admin-scroll::-webkit-scrollbar-track { background: transparent; }
+.admin-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(20, 33, 61, 0.3);
+  border-radius: 9999px;
+}
+.admin-scroll::-webkit-scrollbar-thumb:hover { background-color: rgba(20, 33, 61, 0.5); }
+/* on the dark sidebar the thumb must be light */
+.admin-scroll-dark { scrollbar-color: rgba(251, 246, 236, 0.28) transparent; }
+.admin-scroll-dark::-webkit-scrollbar-thumb { background-color: rgba(251, 246, 236, 0.25); }
+.admin-scroll-dark::-webkit-scrollbar-thumb:hover { background-color: rgba(251, 246, 236, 0.45); }

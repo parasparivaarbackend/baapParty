@@ -1,0 +1,12 @@
+node_modules
+.next
+.env*.local
+.env.local.example
+.DS_Store
+/data/db
+/public/uploads
+
+*.md
+
+# dev e-mail previews
+.email-previews/
