@@ -1,7 +1,7 @@
-import { getT } from '@/lib/i18n-server';
-import PageHeader from '@/components/PageHeader';
-import ContactForm from '@/components/ContactForm';
-import { Clock, Mail, MapPin, Phone } from 'lucide-react';
+import { getT } from "@/lib/i18n-server";
+import PageHeader from "@/components/PageHeader";
+import ContactForm from "@/components/ContactForm";
+import { Clock, Mail, MapPin, Phone } from "lucide-react";
 
 export const metadata = {
   title: "Contact — Bharatiya Avijit Aawaz Party",
@@ -13,8 +13,8 @@ const info = [
     title: "Head Office",
     text: "BK-1/54 Ground Floor Shalimar Bagh New Delhi 110088",
   },
-  { icon: Phone, title: "Phone", text: "+91 11 2xxx 6xxx" },
-  { icon: Mail, title: "Email", text: "contact@bharatiyaavijitaawazparty.in" },
+  { icon: Phone, title: "Phone", text: "+91 7862988888" },
+  { icon: Mail, title: "Email", text: "baapteamindia@gmail.com" },
   { icon: Clock, title: "Office Hours", text: "Mon – Sat, 9:00 AM – 7:00 PM" },
 ];
 
@@ -58,7 +58,7 @@ export default async function ContactPage() {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.283675272632!2d77.15655602451334!3d28.71106718051176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0187c2f65bf7%3A0x80971e43ca1eeffc!2sBlock%20BK%2C%20West%20Shalimar%20Bagh%2C%20Shalimar%20Bagh%2C%20Delhi%2C%20110088!5e0!3m2!1sen!2sin!4v1789557737920!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
-                style={{ border: 0, minHeight: 420 }} 
+                style={{ border: 0, minHeight: 420 }}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
