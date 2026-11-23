@@ -23,7 +23,9 @@ export default function CtaBanner() {
           {t("This Election Belongs to the People. Be Part of It.")}
         </h2>
         <p className="max-w-xl text-white/85">
-          {t("Whether it's two hours at your local booth or a contribution toward printed material — every bit moves the sankalp forward.")}
+          {t(
+            "Whether it's two hours at your local booth or a contribution toward printed material — every bit moves the sankalp forward.",
+          )}
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
           <Link
@@ -33,7 +35,8 @@ export default function CtaBanner() {
             <Users size={17} /> {t("Become a Volunteer")}
           </Link>
           <Link
-            href="/donate"
+            // href="/donate"
+            href="#"
             className="inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-bold uppercase tracking-wide text-saffron-dark shadow-card transition-all hover:-translate-y-0.5"
           >
             <HandHeart size={17} /> {t("Contribute")}

@@ -997,13 +997,18 @@ function Contributions({ items, stats }) {
   return (
     <Panel
       title={t("My Contributions")}
-      summary={t("Total contributed: {amount} across {count} contribution(s)", { amount: fmtMoney(stats.totalContributed, locale), count: stats.contributionCount })}
-      action={<ActionLink href="/donate">{t("Contribute")}</ActionLink>}
+      summary={t("Total contributed: {amount} across {count} contribution(s)", {
+        amount: fmtMoney(stats.totalContributed, locale),
+        count: stats.contributionCount,
+      })}
+      // action={<ActionLink href="/donate">{t("Contribute")}</ActionLink>}
+      action={<ActionLink href="#">{t("Contribute")}</ActionLink>}
     >
       {items.length === 0 ? (
         <Empty
           text={t("You haven't made any contribution yet.")}
-          href="/donate"
+          // href="/donate"
+          href="#"
           cta={t("Contribute Now")}
         />
       ) : (

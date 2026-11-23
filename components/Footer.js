@@ -118,7 +118,8 @@ export default function Footer() {
             </li> */}
             <li>
               <Link
-                href="/donate"
+                // href="/donate"
+                href="#"
                 className="text-ivory/60 transition-colors hover:text-ivory"
               >
                 {t("Contribute to the Campaign")}

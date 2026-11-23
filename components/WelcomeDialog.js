@@ -133,7 +133,8 @@ export default function WelcomeDialog() {
                     title="Donate / Contribute"
                     text="Support the movement with your contribution"
                     tone="banyan"
-                    href="/donate"
+                    // href="/donate"
+                    href="#"
                     onNavigate={close}
                   />
                 </div>

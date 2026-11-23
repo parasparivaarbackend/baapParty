@@ -311,7 +311,8 @@ export default function Navbar() {
         ================================================= */}
         <div className="hidden shrink-0 items-center gap-3 lg:flex">
           <Link
-            href="/donate"
+            // href="/donate"
+            href="#"
             className="shrink-0 rounded-full bg-saffron px-5 py-2.5 text-[13px] font-bold uppercase tracking-wide text-white shadow-card transition-all hover:-translate-y-0.5 hover:bg-saffron-dark hover:shadow-card-hover"
           >
             {t("Contribute")}
@@ -397,7 +398,6 @@ export default function Navbar() {
           </div>
 
           <LanguageToggle />
-          
         </div>
 
         {/* =================================================
@@ -531,7 +531,8 @@ export default function Navbar() {
                   </Link>
 
                   <Link
-                    href="/donate"
+                    // href="/donate"
+                    href="#"
                     onClick={() => {
                       setMobileOpen(false);
                       setMobileSubOpen(null);
