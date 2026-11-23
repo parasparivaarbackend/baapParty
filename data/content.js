@@ -115,34 +115,63 @@ export const stats = [
 // ];
 
 export const leaders = [
+  // {
+  //   id: 1,
+  //   name: "Mr. Dharam Pal",
+  //   role: "National President",
+  //   bio: "Two-term MLA from Nagpur North, known for turning around the state irrigation department and a grassroots padyatra covering 4,200 km.",
+  //   image: "/placeholders/portrait.svg",
+  // },
+
+  // {
+  //   id: 2,
+  //   name: "Mrs. Surender Kaur",
+  //   role: "Vice President",
+  //   bio: "Two-term MLA from Nagpur North, known for turning around the state irrigation department and a grassroots padyatra covering 4,200 km.",
+  //   image: "/placeholders/portrait.svg",
+  // },
+
+  // {
+  //   id: 3,
+  //   name: "Ms. Khushi",
+  //   role: "General Secretary",
+  //   bio: "Former panchayat sarpanch who built India's largest women self-help group network across 900 villages in Rajasthan.",
+  //   image: "/placeholders/portrait.svg",
+  // },
+  // {
+  //   id: 4,
+  //   name: "Mrs. Namrata Suri",
+  //   role: "Treasurer",
+  //   bio: "Ex-civil engineer leading the party's 18-25 outreach with over 8,000 campus units nationwide.",
+  //   image: "/placeholders/portrait.svg",
+  // },
+
   {
     id: 1,
     name: "Mr. Dharam Pal",
     role: "National President",
-    bio: "Two-term MLA from Nagpur North, known for turning around the state irrigation department and a grassroots padyatra covering 4,200 km.",
+    bio: "An experienced leader dedicated to public service, community development, and strengthening the organization.",
     image: "/placeholders/portrait.svg",
   },
-
   {
     id: 2,
     name: "Mrs. Surender Kaur",
     role: "Vice President",
-    bio: "Two-term MLA from Nagpur North, known for turning around the state irrigation department and a grassroots padyatra covering 4,200 km.",
+    bio: "A dedicated leader focused on social welfare, community engagement, and organizational development.",
     image: "/placeholders/portrait.svg",
   },
-
   {
     id: 3,
     name: "Ms. Khushi",
     role: "General Secretary",
-    bio: "Former panchayat sarpanch who built India's largest women self-help group network across 900 villages in Rajasthan.",
+    bio: "Committed to empowering communities, promoting women's participation, and supporting grassroots development.",
     image: "/placeholders/portrait.svg",
   },
   {
     id: 4,
     name: "Mrs. Namrata Suri",
     role: "Treasurer",
-    bio: "Ex-civil engineer leading the party's 18-25 outreach with over 8,000 campus units nationwide.",
+    bio: "Dedicated to organizational growth, youth engagement, and effective financial management.",
     image: "/placeholders/portrait.svg",
   },
 ];
