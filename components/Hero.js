@@ -90,7 +90,7 @@ export default function Hero() {
               ))}
             </div>
             <p className="text-sm text-ink-soft">
-              <span className="font-display font-bold text-ink">96,000+</span>{" "}
+              <span className="font-display font-bold text-ink">960+</span>{" "}
               {t("volunteers already on board")}
             </p>
           </div>

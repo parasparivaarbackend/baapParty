@@ -80,10 +80,10 @@ export const nav = [
   },
 ];
 export const stats = [
-  { label: "Booth Karyakartas", value: 42500, suffix: "+" },
-  { label: "Villages Reached", value: 3100, suffix: "+" },
-  { label: "Public Rallies", value: 218, suffix: "" },
-  { label: "Volunteers Enrolled", value: 96000, suffix: "+" },
+  { label: "Booth Karyakartas", value: 245, suffix: "+" },
+  { label: "Villages Reached", value: 310, suffix: "+" },
+  { label: "Public Rallies", value: 154, suffix: "" },
+  { label: "Volunteers Enrolled", value: 960, suffix: "+" },
 ];
 
 
