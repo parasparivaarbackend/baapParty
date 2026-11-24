@@ -126,7 +126,7 @@ export default function Hero() {
             className="absolute -right-4 bottom-16 hidden w-44 rounded-2xl bg-ink p-4 text-ivory shadow-card sm:block"
           >
             <p className="font-display text-lg font-extrabold text-marigold">
-              3,100+
+              310+
             </p>
             <p className="text-[11px] text-ivory/70">
               {t("Villages reached this year")}
