@@ -356,10 +356,10 @@ const hi = {
   "Accountability to the People": "जनता के प्रति जवाबदेही",
   "I do not want to be a leader; I want to create leadership":
     "मैं नेता नहीं बनना चाहता; मैं नेतृत्व तैयार करना चाहता हूँ",
-  "Lord Shri Krishna gave us a very great message. When injustice increases, when the time comes to protect Dharma and justice, then capable people must stand up.":
-    "भगवान श्री कृष्ण ने हमें एक बहुत बड़ा संदेश दिया। जब अन्याय बढ़ता है, जब धर्म और न्याय की रक्षा का समय आता है, तब सक्षम लोगों को खड़ा होना ही चाहिए।",
-  "Even though I am not even the dust of Shri Krishna’s feet, nor even a nail of His toe — but just as He recited the 18 chapters of the Gita and prepared Arjuna for the Mahabharata...":
-    "यद्यपि मैं श्री कृष्ण के चरणों की धूल भी नहीं, उनके पैर के नाखून के बराबर भी नहीं — परंतु जैसे उन्होंने गीता के 18 अध्याय सुनाकर अर्जुन को महाभारत के लिए तैयार किया...",
+  "Lord Shri Krishna inspires Avijit Aawaz Party to promote Dharma, justice, strong leadership and public welfare through BAAP Party Delhi.":
+    "भगवान श्रीकृष्ण भारतीय अविजित आवाज़ पार्टी को धर्म, न्याय, मजबूत नेतृत्व और जनकल्याण को बढ़ावा देने के लिए प्रेरित करते हैं।",
+  "Even though I am not even the dust of Shri Krishna’s feet, nor a nail of His toe, His teachings inspire me. Just as He guided Arjuna through the 18 chapters of the Bhagavad Gita, I aspire to inspire responsible leadership through Avijit Aawaz Party and strengthen BAAP Party India for justice and positive change.":
+    "यद्यपि मैं श्रीकृष्ण के चरणों की धूल भी नहीं हूँ, न ही उनके पैर के अंगूठे का नाखून, फिर भी उनकी शिक्षाएँ मुझे प्रेरित करती हैं। जिस प्रकार उन्होंने भगवद गीता के 18 अध्यायों के माध्यम से अर्जुन का मार्गदर्शन किया, उसी प्रकार मैं अविजित आवाज़ पार्टी (Avijit Aawaz Party) के माध्यम से जिम्मेदार नेतृत्व को प्रेरित करना और न्याय तथा सकारात्मक बदलाव के लिए BAAP Party India को मजबूत करना चाहता हूँ।",
   "I too will place before you the 18 contradictions of our country, like the 18 chapters of the Gita, so that new Arjunas for this future Mahabharata may be prepared. And the brave women of our country may be prepared to write the future of this nation.":
     "मैं भी गीता के 18 अध्यायों की तरह हमारे देश के 18 विरोधाभास आपके सामने रखूँगा, ताकि इस भावी महाभारत के लिए नए अर्जुन तैयार हो सकें। और हमारे देश की वीर महिलाएँ इस राष्ट्र का भविष्य लिखने के लिए तैयार हो सकें।",
   "UPI / QR Code": "UPI / QR कोड",

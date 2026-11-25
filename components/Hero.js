@@ -52,7 +52,7 @@ export default function Hero() {
 
           <p className="mt-6 max-w-xl text-xl font-medium leading-relaxed text-ink-soft sm:text">
             {t(
-              "Our resolve is to build an India that is secure, prosperous, just, and respected—a nation where farmers, youth, and every ordinary citizen have the full right and opportunity to fulfil their dreams.",
+              "Bharatiya Avijit Aawaz Party (BAAP Party) is an Indian political party committed to empowering citizens and creating future leaders. Explore the BAAP Party vision, leadership, and membership opportunities. Join BAAP Party India to support public welfare, equality, youth empowerment, and national development.",
             )}
           </p>
 

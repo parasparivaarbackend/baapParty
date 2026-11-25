@@ -39,7 +39,7 @@ const hi = {
     "मैं अपने लिए सत्ता नहीं चाहता। मैं ऐसे सक्षम लोगों को तैयार करना चाहता हूँ जो राष्ट्र की ज़िम्मेदारी उठा सकें। मैं नेता बनना नहीं, नेतृत्व तैयार करना चाहता हूँ।",
   "A Message from Paras Bhai ji": "पारस भाई जी का संदेश",
   "Tayyar karna Chahta hoon.": "तैयार करना चाहता हूँ।",
-  "My dear citizens of India, my younger brothers and sisters, my children, and my elders — I wish you all happiness and good health. This is my heartfelt prayer.":
+  "Main Neta Nahi, Netritva Tayyar Karna Chahta Hoon! Bharatiya Avijit Aawaz Party (BAAP Party) believes in empowering people, developing future leaders and strengthening democracy. Join the BAAP Party to support youth leadership":
     "भारत के मेरे प्रिय नागरिकों, मेरे छोटे भाई-बहनों, मेरे बच्चों और मेरे बुज़ुर्गों — मैं आप सभी के सुख और अच्छे स्वास्थ्य की कामना करता हूँ। यही मेरी हार्दिक प्रार्थना है।",
   "Paras Bhai ji addressing the nation": "राष्ट्र को संबोधित करते पारस भाई जी",
   "Stand up for Dharma and Justice.": "धर्म और न्याय के लिए खड़े हों।",
@@ -48,8 +48,8 @@ const hi = {
   "The Call": "आह्वान",
   "I want the good children, good youth, honest women, experienced elders, farmers, soldiers, educated people, and social workers of the country to come together.":
     "मैं चाहता हूँ कि देश के अच्छे बच्चे, अच्छे युवा, ईमानदार महिलाएँ, अनुभवी बुज़ुर्ग, किसान, सैनिक, शिक्षित लोग और समाजसेवी एक साथ आएँ।",
-  "Let us build a team that is ready not just to fight elections, but to understand the problems of the country and solve them.":
-    "आइए ऐसी टीम बनाएँ जो केवल चुनाव लड़ने के लिए नहीं, बल्कि देश की समस्याओं को समझने और उन्हें सुलझाने के लिए तैयार हो।",
+  "Let us build a team ready not just to fight elections, but to understand the country's problems and solve them. Through BAAP Party India, we invite responsible citizens to become part of this mission. Join now and contribute your ideas, leadership and dedication towards building a stronger and better India.":
+    "आइए हम एक ऐसी टीम बनाएं जो सिर्फ चुनाव लड़ने के लिए नहीं, बल्कि देश की समस्याओं को समझने और उन्हें हल करने के लिए तैयार हो। BAAP Party India के माध्यम से, हम जिम्मेदार नागरिकों को इस मिशन का हिस्सा बनने के लिए आमंत्रित करते हैं। अभी जुड़ें और एक मजबूत और बेहतर भारत के निर्माण में अपने विचारों, नेतृत्व और समर्पण का योगदान दें।",
   "This Is Not the Gita — These Are Our 18 Chapters":
     "यह गीता नहीं है — ये हमारे 18 अध्याय हैं",
   "18 Resolution for India": "भारत के लिए 18 संकल्प",
@@ -141,8 +141,8 @@ const hi = {
     "चुनावी टिकट मिलने के बाद दल-बदल के प्रति शून्य सहनशीलता",
   "Manifesto commitments tracked on a public dashboard, quarter by quarter":
     "घोषणापत्र के वादों की तिमाही-दर-तिमाही सार्वजनिक डैशबोर्ड पर निगरानी",
-  "Shri Krishna Himself did not make the throne His goal; instead, He guided capable people for the establishment of Dharma. I too wish to play the same role.":
-    "श्री कृष्ण ने स्वयं सिंहासन को अपना लक्ष्य नहीं बनाया; बल्कि धर्म की स्थापना के लिए सक्षम लोगों का मार्गदर्शन किया। मैं भी वही भूमिका निभाना चाहता हूँ।",
+  "Shri Krishna Himself did not make the throne His goal; instead, He guided capable people to establish Dharma. I too wish to follow this path through BAAP Party leadership, empowering responsible citizens to build a just and prosperous India with Avijit Aawaz Party.":
+    "श्रीकृष्ण ने स्वयं सिंहासन को अपना लक्ष्य नहीं बनाया; बल्कि, उन्होंने धर्म की स्थापना के लिए योग्य लोगों का मार्गदर्शन किया। मैं भी BAAP Party के नेतृत्व के माध्यम से इसी मार्ग पर चलना चाहता हूँ, जिससे जिम्मेदार नागरिक सशक्त हों और अविजित आवाज़ पार्टी के साथ एक न्यायपूर्ण और समृद्ध भारत का निर्माण कर सकें।",
   "Bharatiya Avijit Aawaz Party (BAAP)": "भारतीय अविजित आवाज़ पार्टी (B.A.A.P.)",
   // Hero headline (split into four pieces in components/Hero.js — read together they say:
   // "मैं नेता नहीं, नेतृत्व तैयार करना चाहता हूँ।")
@@ -150,7 +150,7 @@ const hi = {
   "leader;": "नेता नहीं,",
   "I want to create": "नेतृत्व तैयार",
   "leadership.": "करना चाहता हूँ।",
-  "Our resolve is to build an India that is secure, prosperous, just, and respected—a nation where farmers, youth, and every ordinary citizen have the full right and opportunity to fulfil their dreams.":
-    "हमारा संकल्प एक ऐसा भारत बनाना है जो सुरक्षित, समृद्ध, न्यायपूर्ण और सम्मानित हो — एक ऐसा राष्ट्र जहाँ किसान, युवा और हर आम नागरिक को अपने सपने पूरे करने का पूरा अधिकार और अवसर मिले।",
+  "Bharatiya Avijit Aawaz Party (BAAP Party) is an Indian political party committed to empowering citizens and creating future leaders. Explore the BAAP Party vision, leadership, and membership opportunities. Join BAAP Party India to support public welfare, equality, youth empowerment, and national development.":
+    "भारतीय अविजित आवाज़ पार्टी (BAAP Party) एक भारतीय राजनीतिक दल है जो नागरिकों को सशक्त बनाने और भविष्य के नेतृत्व को तैयार करने के लिए प्रतिबद्ध है। BAAP Party के दृष्टिकोण, नेतृत्व और सदस्यता के अवसरों के बारे में जानें। लोक कल्याण, समानता, युवा सशक्तिकरण और राष्ट्रीय विकास का समर्थन करने के लिए BAAP Party India से जुड़ें।",
 };
 export default hi;

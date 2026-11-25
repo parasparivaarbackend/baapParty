@@ -68,7 +68,7 @@ export default function PillarsSection() {
   return (
     <section className="bg-ivory py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center">
+        <div className="mx-auto max-w-4xl text-center">
           <span className="section-eyebrow text-xs font-bold uppercase text-banyan">
             {t("This Is Not the Gita — These Are Our 18 Chapters")}
           </span>
@@ -77,7 +77,7 @@ export default function PillarsSection() {
           </h2>
           <p className="mt-4 text-ink-soft">
             {t(
-              "We present 18 important challenges facing the country as 18 chapters. They form the basis of our ideas, policy proposals, and future action plan.",
+              "Avijit Aawaz Party (BAAP Party Delhi) presents 18 Resolutions for India, focusing on national development, education, healthcare, farmers' welfare, youth empowerment, women's safety, employment and social justice. Our vision is to build a stronger, prosperous and united India through responsible leadership and public participation.",
             )}
           </p>
         </div>

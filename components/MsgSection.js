@@ -10,13 +10,13 @@ import { useLang } from '@/context/LanguageContext';
 
 const messages = [
     {
-        text: 'Lord Shri Krishna gave us a very great message. When injustice increases, when the time comes to protect Dharma and justice, then capable people must stand up.',
+        text: 'Lord Shri Krishna inspires Avijit Aawaz Party to promote Dharma, justice, strong leadership and public welfare through BAAP Party Delhi.',
     },
     {
-        text: 'Shri Krishna Himself did not make the throne His goal; instead, He guided capable people for the establishment of Dharma. I too wish to play the same role.',
+        text: 'Shri Krishna Himself did not make the throne His goal; instead, He guided capable people to establish Dharma. I too wish to follow this path through BAAP Party leadership, empowering responsible citizens to build a just and prosperous India with Avijit Aawaz Party.',
     },
     {
-        text: 'Even though I am not even the dust of Shri Krishna\u2019s feet, nor even a nail of His toe \u2014 but just as He recited the 18 chapters of the Gita and prepared Arjuna for the Mahabharata...',
+        text: 'Even though I am not even the dust of Shri Krishna’s feet, nor a nail of His toe, His teachings inspire me. Just as He guided Arjuna through the 18 chapters of the Bhagavad Gita, I aspire to inspire responsible leadership through Avijit Aawaz Party and strengthen BAAP Party India for justice and positive change.',
     },
     {
         text: 'I too will place before you the 18 contradictions of our country, like the 18 chapters of the Gita, so that new Arjunas for this future Mahabharata may be prepared. And the brave women of our country may be prepared to write the future of this nation.',
@@ -49,7 +49,7 @@ export default function MsgSection() {
                         <span className="text-saffron">{t("Tayyar karna Chahta hoon.")}</span>
                     </h2>
                     <p className="mt-4 text-base text-ink-soft">
-                        {t("My dear citizens of India, my younger brothers and sisters, my children, and my elders — I wish you all happiness and good health. This is my heartfelt prayer.")}
+                        {t("Main Neta Nahi, Netritva Tayyar Karna Chahta Hoon! Bharatiya Avijit Aawaz Party (BAAP Party) believes in empowering people, developing future leaders and strengthening democracy. Join the BAAP Party to support youth leadership,")}
                     </p>
                 </motion.div>
 
@@ -135,7 +135,7 @@ export default function MsgSection() {
                                     {t("I want the good children, good youth, honest women, experienced elders, farmers, soldiers, educated people, and social workers of the country to come together.")}
                                 </p>
                                 <p className="mt-3 font-display text-lg font-bold leading-snug text-white">
-                                    {t("Let us build a team that is ready not just to fight elections, but to understand the problems of the country and solve them.")}
+                                    {t("Let us build a team ready not just to fight elections, but to understand the country's problems and solve them. Through BAAP Party India, we invite responsible citizens to become part of this mission. Join now and contribute your ideas, leadership and dedication towards building a stronger and better India.")}
                                 </p>
                             </div>
                         </motion.div>
