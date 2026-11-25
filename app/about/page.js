@@ -7,9 +7,24 @@ import { CheckCircle2 } from "lucide-react";
 import GuidanceSection from "@/components/Guidance";
 import { getT } from "@/lib/i18n-server";
 
+
 export const metadata = {
-  title: "About Us — Bharatiya Avijit Aawaz Party",
+  title: "Bharatiya Avijit Aawaz Party (BAAP Party) – About Us",
+  description: "Bharatiya Avijit Aawaz Party (BAAP), its vision, mission, core values, leadership and commitment to public service and nation-building.",
+  keywords: [
+    "Bharatiya Avijit Aawaz Party",
+    "BAAP Party",
+    "About BAAP Party",
+    "Bharatiya Avijit Aawaz Party About Us",
+    "BAAP Party Vision and Mission",
+    "BAAP Party Core Values",
+    "BAAP Political Party India",
+    "BAAP Party Leadership",
+    "BAAP Party Objectives",
+    "Avijit Aawaz Party India"
+  ],
 };
+
 
 const coreValues = [
   "Honesty and accountability in politics.",

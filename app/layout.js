@@ -4,7 +4,7 @@ import { FilterProvider } from '@/context/FilterContext';
 import { AuthProvider } from '@/context/AuthContext';
 import { LanguageProvider } from '@/context/LanguageContext';
 import { cookies } from 'next/headers';
-import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'; // यहाँ से इम्पोर्ट किया
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 
 export const metadata = {
   title:
@@ -14,7 +14,6 @@ export const metadata = {
   keywords: ["election", "political party", "India", "campaign", "manifesto"],
   icons: { icon: "/favicon.ico" },
 
-  // 1. Google Search Console Verification यहाँ जुड़ गया है
   verification: {
     google: 'uJcIAunm_VKfP79XaTaBxkgizk1O9iLRvq4keWZN5mI',
   },
@@ -24,7 +23,8 @@ export default async function RootLayout({ children }) {
   const lang = (await cookies()).get('baap_lang')?.value === 'hi' ? 'hi' : 'en';
 
   return (
-    <html lang={lang}>
+    // 1. यहाँ suppressHydrationWarning जोड़ा गया है
+    <html lang={lang} suppressHydrationWarning>
       <head>
         <meta name="color-scheme" content="light" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,14 +34,15 @@ export default async function RootLayout({ children }) {
           rel="stylesheet"
         />
 
-        {/* 2. Google Analytics (GA4) स्क्रिप्ट */}
+        {/* Google Analytics (GA4) स्क्रिप्ट */}
         <GoogleAnalytics gaId="G-0RNNFT5MMV" />
 
-        {/* 3. Google Tag Manager (GTM) स्क्रिप्ट */}
+        {/* Google Tag Manager (GTM) स्क्रिप्ट */}
         <GoogleTagManager gtmId="GTM-5CN972KH" />
 
       </head>
-      <body className="font-body antialiased">
+      {/* 2. यहाँ भी suppressHydrationWarning जोड़ा गया है */}
+      <body className="font-body antialiased" suppressHydrationWarning>
         <LanguageProvider initialLang={lang}>
           <AuthProvider>
             <FilterProvider>
