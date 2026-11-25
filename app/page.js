@@ -12,11 +12,11 @@ import MsgSection from '@/components/MsgSection';
 // ✅ होम पेज के अपडेटेड Meta Tags
 export const metadata = {
   title: "Bharatiya Avijit Aawaz Party | Political Party for Public Welfare in Delhi & Punjab, India",
-  description: "Bharatiya Avijit Aawaz Party works to empower people, promote social justice, and build a stronger, inclusive future across Delhi and Punjab.",
+  description: "Bharatiya Avijit Aawaz Party (BAAP) Janta Party works to empower people, promote social justice, and build a stronger, inclusive future across Delhi and Punjab.",
   keywords: [
     "Bharatiya Avijit Aawaz Party",
     "BAAP Party",
-    "BAAP Party India",
+    "BAAP Janta Party India",
     "Bharatiya Avijit Awaz Party",
     "BAAP Party official website",
     "Avijit Aawaz Party",
