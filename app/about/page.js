@@ -160,7 +160,7 @@ export default async function AboutPage() {
               <div className="mb-6 sm:mb-8" />
 
               <p className="mb-6 text-sm leading-relaxed text-ink-soft sm:text-base">
-                {t("We stand against injustice, exploitation, corruption, crime, drugs, caste discrimination, and social inequality. Here are our core thoughts and priorities:")}
+                {t("BAAP Party believes in honesty, equality, transparency, constitutional values and responsible governance. Our mission is to develop capable leadership and build an organization that listens to people and works towards meaningful solutions.")}
               </p>
 
               <ul className="mt-6 space-y-3 sm:space-y-4">
@@ -217,7 +217,7 @@ export default async function AboutPage() {
               <div className="mb-4 sm:mb-6" />
 
               <p className="mb-4 text-base font-bold text-ink sm:text-lg">
-                {t("What kind of India is our dream?")}
+                {t("18 Commitments for a Better Future")}
               </p>
 
               <p className="mb-6 text-sm leading-relaxed text-ink-soft sm:text-base">
@@ -261,7 +261,7 @@ export default async function AboutPage() {
               <div className="mb-4 sm:mb-6" />
 
               <p className="mb-6 text-sm leading-relaxed text-ink-soft sm:text-base">
-                {t("Our mission is that the country's problems should not just be made into election issues, but actual work should be done for their permanent solutions.")}
+                {t("The mission of Bharatiya Avijit Aawaz Party (BAAP Party) is to work towards building a secure, prosperous, educated, self-reliant and just India where every citizen has equal rights, opportunities and dignity.")}
                 <br />
                 <br />
                 {t("To achieve this, we want to move forward in five major ways:")}

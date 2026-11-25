@@ -75,8 +75,8 @@ const hi = {
     "सेवा का मार्ग — पंजाब से पूरे भारत के आंदोलन तक",
   "Our Leaders": "हमारे नेता",
   "Faces Behind the Movement": "आंदोलन के चेहरे",
-  "Elected representatives and organisers who spend more time in the field than behind a desk.":
-    "निर्वाचित प्रतिनिधि और संगठनकर्ता जो मेज़ के पीछे से ज़्यादा समय ज़मीन पर बिताते हैं।",
+  "The leadership of Bharatiya Avijit Aawaz Party (BAAP Party) is committed to promoting responsible leadership, public service, democratic values and inclusive national development.Our leaders aim to encourage public participation, address people's concerns and work towards a future built on equality, transparency, social justice and opportunities for all.":
+    "भारतीय अविजित आवाज़ पार्टी (BAAP Party) का नेतृत्व जिम्मेदार नेतृत्व, जनसेवा, लोकतांत्रिक मूल्यों और समावेशी राष्ट्रीय विकास को बढ़ावा देने के लिए प्रतिबद्ध है। हमारा उद्देश्य जनभागीदारी को प्रोत्साहित करना, लोगों की चिंताओं का समाधान करना और समानता, पारदर्शिता, सामाजिक न्याय तथा सभी के लिए अवसरों पर आधारित भविष्य की दिशा में काम करना है।",
   "Previous Section": "पिछला भाग",
   "Next Section": "अगला भाग",
   "Go to section {n}": "भाग {n} पर जाएँ",

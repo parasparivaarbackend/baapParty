@@ -85,15 +85,15 @@ export default function LeadersSection() {
   return (
     <section id="leaders" className="scroll-mt-24 bg-paper py-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl text-center">
+        <div className="mx-auto max-w-4xl text-center">
           <span className="section-eyebrow text-xs font-bold uppercase text-saffron">
             {t("Our Leaders")}
           </span>
           <h2 className="mt-3 font-display text-3xl font-extrabold text-ink sm:text-4xl">
-            {t("Faces Behind the Movement")}
+            {t("Bharatiya Avijit Aawaz Party (BAAP Party)")}
           </h2>
           <p className="mt-4 text-ink-soft">
-            {t("Elected representatives and organisers who spend more time in the field than behind a desk.")}
+            {t("The leadership of Bharatiya Avijit Aawaz Party (BAAP Party) is committed to promoting responsible leadership, public service, democratic values and inclusive national development.Our leaders aim to encourage public participation, address people's concerns and work towards a future built on equality, transparency, social justice and opportunities for all.")}
           </p>
         </div>
         {/* 
