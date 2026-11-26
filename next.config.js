@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  output: "standalone",
   images: {
     remotePatterns: [
       {
@@ -21,6 +21,11 @@ const nextConfig = {
       },
     ],
   },
+
+  experimental: {
+    middlewareClientMaxBodySize: "50mb",
+  },
+  
 };
 
 module.exports = nextConfig;
