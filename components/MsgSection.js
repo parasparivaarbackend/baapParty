@@ -25,122 +25,135 @@ const messages = [
 
 export default function MsgSection() {
     const { t } = useLang();
+
     return (
         <section className="relative overflow-hidden bg-paper py-16 lg:py-24">
-            {/* Decorative blurs — theme ke hisaab se */}
-            <div className="absolute -left-24 top-1/4 h-80 w-80 rounded-full bg-banyan/10 blur-3xl" />
-            <div className="absolute -right-24 bottom-10 h-72 w-72 rounded-full bg-saffron/10 blur-3xl" />
+            {/* Decorative blurs */}
+            <div className="absolute -left-24 top-1/4 h-80 w-80 rounded-full bg-banyan/10 blur-3xl pointer-events-none" />
+            <div className="absolute -right-24 bottom-10 h-72 w-72 rounded-full bg-saffron/10 blur-3xl pointer-events-none" />
 
-            <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 {/* Section Heading */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, margin: '-60px' }}
                     transition={{ duration: 0.5 }}
-                    className="mx-auto max-w-2xl text-center"
+                    className="mx-auto max-w-3xl text-center"
                 >
-                    <span className="section-eyebrow inline-flex items-center gap-2 rounded-full bg-white px-4 py-1.5 text-xs font-bold uppercase text-saffron shadow-card">
+                    <span className="section-eyebrow inline-flex items-center gap-2 rounded-full bg-white px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-saffron shadow-sm border border-saffron/20">
                         <Sparkles size={14} />
                         {t("A Message from Paras Bhai ji")}
                     </span>
-                    <h2 className="mt-5 font-display text-3xl font-extrabold leading-tight text-ink sm:text-4xl lg:text-[2.6rem]">
+                    <h2 className="mt-6 font-display text-3xl font-extrabold leading-tight text-ink sm:text-4xl lg:text-[2.75rem]">
                         {t("Main neta nahi,")} <span className="text-banyan">{t("Netritva")}</span>{' '}
                         <span className="text-saffron">{t("Tayyar karna Chahta hoon.")}</span>
                     </h2>
-                    <p className="mt-4 text-base text-ink-soft">
+                    <p className="mt-4 text-base leading-relaxed text-ink-soft sm:text-lg">
                         {t("Main Neta Nahi, Netritva Tayyar Karna Chahta Hoon! Bharatiya Avijit Aawaz Party (BAAP Party) believes in empowering people, developing future leaders and strengthening democracy. Join the BAAP Party to support youth leadership,")}
                     </p>
                 </motion.div>
 
                 {/* Image + Content Grid */}
-                <div className="mt-14 grid grid-cols-1 items-start gap-10 lg:grid-cols-12 lg:gap-12">
+                <div className="mt-16 grid grid-cols-1 items-start gap-12 lg:grid-cols-12 lg:gap-16">
+
                     {/* LEFT — IMAGE (sticky on desktop) */}
                     <motion.div
                         initial={{ opacity: 0, scale: 0.95 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true, margin: '-80px' }}
                         transition={{ duration: 0.6, ease: 'easeOut' }}
-                        className="lg:col-span-5"
+                        className="lg:col-span-5 w-full"
                     >
-                        <div className="lg:sticky lg:top-8">
-                            <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-[2.5rem] border-8 border-white shadow-card-hover">
+                        <div className="lg:sticky lg:top-24 flex flex-col items-center">
+                            <div className="relative mx-auto aspect-[4/5] w-full max-w-sm sm:max-w-md overflow-hidden rounded-[2rem] border-4 border-white shadow-xl shadow-ink/5">
                                 <ZoomableImage
                                     src={img}
                                     alt={t("Paras Bhai ji addressing the nation")}
                                     fill
                                     priority
-                                    className="object-cover"
+                                    className="object-cover object-top"
                                 />
-                                <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-transparent" />
+                                <div className="absolute inset-0 bg-gradient-to-t from-ink/90 via-ink/20 to-transparent" />
 
                                 {/* Quote overlay */}
-                                <div className="absolute bottom-0 left-0 right-0 p-6">
-                                    <Quote size={28} className="mb-2 text-marigold" />
-                                    <p className="font-display text-lg font-bold leading-snug text-ivory">
+                                <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
+                                    <Quote size={32} className="mb-3 text-marigold opacity-90" />
+                                    <p className="font-display text-xl font-bold leading-snug text-white">
                                         {t("Stand up for Dharma and Justice.")}
                                     </p>
-                                    <p className="mt-1 text-xs font-semibold uppercase tracking-wide text-ivory/70">
+                                    <p className="mt-2 text-xs font-semibold uppercase tracking-widest text-white/70">
                                         {t("— Paras Bhai ji")}
                                     </p>
                                 </div>
                             </div>
 
-                            {/* Floating badge (theme jaisa) */}
+                            {/* Floating badge */}
                             <motion.div
-                                animate={{ y: [0, 10, 0] }}
-                                transition={{ duration: 6, repeat: Infinity, ease: 'easeInOut' }}
-                                className="mx-auto mt-6 hidden w-full max-w-md rounded-2xl bg-ink p-4 text-ivory shadow-card sm:block"
+                                animate={{ y: [0, 8, 0] }}
+                                transition={{ duration: 5, repeat: Infinity, ease: 'easeInOut' }}
+                                className="mx-auto mt-6 w-full max-w-sm sm:max-w-md rounded-2xl bg-ink p-5 text-ivory shadow-lg border border-white/10"
                             >
-                                <p className="font-display text-2xl font-extrabold text-marigold">18</p>
-                                <p className="text-[11px] text-ivory/70">
-                                    {t("Contradictions of our nation — like the 18 chapters of the Gita")}
-                                </p>
+                                <div className="flex items-center gap-4">
+                                    <span className="font-display text-4xl font-extrabold text-marigold">18</span>
+                                    <p className="text-sm leading-snug text-ivory/80 font-medium">
+                                        {t("Contradictions of our nation — like the 18 chapters of the Gita")}
+                                    </p>
+                                </div>
                             </motion.div>
                         </div>
                     </motion.div>
 
-                    {/* RIGHT — CONTENT */}
-                    <div className="space-y-5 lg:col-span-7">
+                    {/* RIGHT — CONTENT (Sirf Messages) */}
+                    <div className="lg:col-span-7 space-y-6">
                         {messages.map((m, i) => (
                             <motion.div
                                 key={i}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
+                                initial={{ opacity: 0, x: 20 }}
+                                whileInView={{ opacity: 1, x: 0 }}
                                 viewport={{ once: true, margin: '-40px' }}
-                                transition={{ duration: 0.45, delay: i * 0.08 }}
-                                className="group relative rounded-2xl border border-ink/8 bg-white p-6 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-card-hover"
+                                transition={{ duration: 0.5, delay: i * 0.1 }}
+                                className="group relative overflow-hidden rounded-2xl border border-ink/5 bg-white p-6 sm:p-7 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
                             >
-                                <span className="absolute left-0 top-6 h-8 w-1 rounded-r-full bg-saffron transition-all group-hover:h-10" />
-                                <p className="pl-3 text-[15px] leading-relaxed text-ink-soft">
+                                {/* Left accent line */}
+                                <span className="absolute left-0 top-0 bottom-0 w-1.5 bg-saffron/80 transition-all duration-300 group-hover:bg-saffron group-hover:w-2" />
+
+                                <p className="pl-4 text-base leading-relaxed text-ink-soft/90 font-medium">
                                     {t(m.text)}
                                 </p>
                             </motion.div>
                         ))}
-
-                        {/* Call to Unity — highlighted */}
-                        <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true, margin: '-40px' }}
-                            transition={{ duration: 0.5, delay: 0.35 }}
-                            className="relative overflow-hidden rounded-2xl bg-ink p-7 text-ivory shadow-card-hover"
-                        >
-                            <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-saffron/20 blur-2xl" />
-                            <div className="relative">
-                                <p className="text-xs font-bold uppercase tracking-wide text-marigold">
-                                    {t("The Call")}
-                                </p>
-                                <p className="mt-3 text-[15px] leading-relaxed text-ivory/90">
-                                    {t("I want the good children, good youth, honest women, experienced elders, farmers, soldiers, educated people, and social workers of the country to come together.")}
-                                </p>
-                                <p className="mt-3 font-display text-lg font-bold leading-snug text-white">
-                                    {t("Let us build a team ready not just to fight elections, but to understand the country's problems and solve them. Through BAAP Party India, we invite responsible citizens to become part of this mission. Join now and contribute your ideas, leadership and dedication towards building a stronger and better India.")}
-                                </p>
-                            </div>
-                        </motion.div>
                     </div>
                 </div>
+
+                {/* THE CALL — Ab yeh Full Width mein center me hai */}
+                <motion.div
+                    initial={{ opacity: 0, y: 30 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: '-40px' }}
+                    transition={{ duration: 0.6, delay: 0.2 }}
+                    className="mt-16 max-w-5xl mx-auto relative overflow-hidden rounded-[2rem] bg-ink p-8 sm:p-12 text-ivory shadow-2xl"
+                >
+                    {/* Glow effects */}
+                    <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-saffron/20 blur-3xl pointer-events-none" />
+                    <div className="absolute -left-20 -bottom-20 h-64 w-64 rounded-full bg-banyan/20 blur-3xl pointer-events-none" />
+
+                    <div className="relative z-10 text-center flex flex-col items-center">
+                        <p className="inline-block text-xs font-bold uppercase tracking-widest text-marigold border-b border-marigold/30 pb-1 mb-6">
+                            {t("The Call")}
+                        </p>
+
+                        <p className="text-lg leading-relaxed text-ivory/90 max-w-3xl">
+                            {t("I want the good children, good youth, honest women, experienced elders, farmers, soldiers, educated people, and social workers of the country to come together.")}
+                        </p>
+
+                        <div className="my-6 h-px w-24 bg-white/20" />
+
+                        <p className="font-display text-xl sm:text-2xl font-bold leading-snug text-white max-w-4xl">
+                            {t("Let us build a team ready not just to fight elections, but to understand the country's problems and solve them. Through BAAP Party India, we invite responsible citizens to become part of this mission. Join now and contribute your ideas, leadership and dedication towards building a stronger and better India.")}
+                        </p>
+                    </div>
+                </motion.div>
             </div>
         </section>
     );
