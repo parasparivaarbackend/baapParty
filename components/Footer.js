@@ -51,7 +51,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={name}
-                className="flex h-9 w-9 items-center justify-center rounded-full border border-ivory/15 text-ivory/70 transition-colors hover:border-marigold hover:text-marigold"
+                className="flex h-9 w-9 p-2 items-center justify-center rounded-full border border-ivory/15 text-ivory/70 transition-colors hover:border-marigold hover:text-marigold"
               >
                 {/* <img
                   width="17"

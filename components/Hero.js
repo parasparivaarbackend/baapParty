@@ -50,11 +50,16 @@ export default function Hero() {
             )}
           </p> */}
 
-          <p className="mt-6 max-w-xl text-xl font-medium leading-relaxed text-ink-soft sm:text">
-            {t(
-              "Bharatiya Avijit Aawaz Party (BAAP Party) is an Indian political party committed to empowering citizens and creating future leaders. Explore the BAAP Party vision, leadership, and membership opportunities. Join BAAP Party India to support public welfare, equality, youth empowerment, and national development.",
-            )}
-          </p>
+          <div className="mt-6 max-w-xl leading-relaxed">
+            <h1 className="inline text-m font-bold text-ink">
+              Bharatiya Avijit Aawaz Party (BAAP Party){" "}
+            </h1>
+            <span className="text-xl font-medium text-ink-soft sm:text-lg">
+              {t(
+                "is an Indian political party committed to empowering citizens and creating future leaders. Explore the BAAP Party vision, leadership, and membership opportunities. Join BAAP Party India to support public welfare, equality, youth empowerment, and national development."
+              )}
+            </span>
+          </div>
 
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <Link

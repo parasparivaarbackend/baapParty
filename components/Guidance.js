@@ -177,7 +177,7 @@ export default function GuidanceSection() {
 
                     <Quote size={36} className="mx-auto mb-4 text-marigold" />
                     <p className="mx-auto max-w-3xl font-display text-xl font-bold leading-snug text-white sm:text-2xl lg:text-[1.7rem]">
-                        &ldquo;{t("I do not seek power for myself. I want to prepare capable people who can take up the responsibility of the nation. I want to prepare Netritva, not become a Neta.")}&rdquo;
+                        &ldquo;{t("I do not seek power for myself. I aspire to build people who are capable of carrying the responsibility of the nation. My vision is not to become a Neta, but to nurture Netritva.")}&rdquo;
                     </p>
                     <p className="mt-5 text-xs font-bold uppercase tracking-widest text-marigold">
                         {t("— Paras Bhai ji")}
