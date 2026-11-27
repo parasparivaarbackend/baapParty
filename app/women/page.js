@@ -21,6 +21,10 @@ export const metadata = {
     "Women Grievance Support",
     "Women Health Resources"
   ],
+  // ✅ Canonical URL yahan add karein
+  alternates: {
+    canonical: '/women',
+  },
 };
 
 export default function WomenPage() {

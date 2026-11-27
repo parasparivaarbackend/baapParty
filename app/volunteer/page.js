@@ -20,6 +20,10 @@ export const metadata = {
     "BAAP Party Social Activities",
     "BAAP Party Volunteer Form"
   ],
+  // ✅ Canonical URL yahan add karein
+  alternates: {
+    canonical: '/volunteer',
+  },
 };
 
 export default async function VolunteerPage() {

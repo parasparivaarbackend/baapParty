@@ -4,7 +4,19 @@ import ContactForm from "@/components/ContactForm";
 import { Clock, Mail, MapPin, Phone } from "lucide-react";
 
 export const metadata = {
-  title: "Contact — Bharatiya Avijit Aawaz Party",
+  title: "BAAP Party | Bharatiya Avijit Aawaz Party",
+  description: "Contact Bharatiya Avijit Aawaz Party (BAAP Party) in Delhi, Punjab and India. Find our office address, head office details and join BAAP Party.",
+  keywords: [
+    "Bharatiya Avijit Aawaz Party contact",
+    "BAAP Party",
+    "BAAP Party Delhi",
+    "BAAP Party office address",
+    "BAAP Party head office"
+  ],
+  // ✅ Canonical URL yahan add kiya gaya hai
+  alternates: {
+    canonical: '/contact', // Agar aapka folder name contact-us hai toh. Agar folder 'contact' hai toh '/contact' likhein.
+  },
 };
 
 const info = [

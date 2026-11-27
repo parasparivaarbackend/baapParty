@@ -23,6 +23,9 @@ export const metadata = {
     "BAAP Party Objectives",
     "Avijit Aawaz Party India"
   ],
+  alternates: {
+    canonical: '/about',
+  },
 };
 
 
