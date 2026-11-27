@@ -26,6 +26,10 @@ export const metadata = {
     "Join BAAP Party",
     "Political Party in India"
   ],
+  // ✅ Favicon yahan add karein
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function HomePage() {
