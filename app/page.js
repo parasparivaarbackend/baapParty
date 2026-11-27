@@ -26,9 +26,12 @@ export const metadata = {
     "Join BAAP Party",
     "Political Party in India"
   ],
-  // ✅ Favicon yahan add karein
   icons: {
     icon: '/favicon.ico',
+  },
+  // ✅ Canonical URL yahan add kiya gaya hai
+  alternates: {
+    canonical: 'https://bharatiyaavijitaawazparty.com/',
   },
 };
 

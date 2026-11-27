@@ -7,11 +7,15 @@ import { cookies } from 'next/headers';
 import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 
 export const metadata = {
+  // ✅ metadataBase yahan add kiya gaya hai
+  metadataBase: new URL('https://bharatiyaavijitaawazparty.com'),
+
   title:
     "Bharatiya Avijit Aawaz Party (BAAP) — The People's Voice, The People's Right",
   description:
     "Official website of Bharatiya Avijit Aawaz Party (BAAP) — 18 Resolution for India: a pledge to build a safe, prosperous, just, and dignified India.",
   keywords: ["election", "political party", "India", "campaign", "manifesto"],
+
   icons: { icon: "/favicon.ico" },
 
   verification: {
@@ -23,7 +27,6 @@ export default async function RootLayout({ children }) {
   const lang = (await cookies()).get('baap_lang')?.value === 'hi' ? 'hi' : 'en';
 
   return (
-    // 1. यहाँ suppressHydrationWarning जोड़ा गया है
     <html lang={lang} suppressHydrationWarning>
       <head>
         <meta name="color-scheme" content="light" />
@@ -41,7 +44,6 @@ export default async function RootLayout({ children }) {
         <GoogleTagManager gtmId="GTM-5CN972KH" />
 
       </head>
-      {/* 2. यहाँ भी suppressHydrationWarning जोड़ा गया है */}
       <body className="font-body antialiased" suppressHydrationWarning>
         <LanguageProvider initialLang={lang}>
           <AuthProvider>
