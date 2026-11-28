@@ -11,10 +11,31 @@ export const metadata = {
   metadataBase: new URL('https://bharatiyaavijitaawazparty.com'),
 
   title:
-    "Bharatiya Avijit Aawaz Party (BAAP) — The People's Voice, The People's Right",
+    "Bharatiya Avijit Aawaz Party | Political Party for Public Welfare in Delhi & Punjab, India",
   description:
-    "Official website of Bharatiya Avijit Aawaz Party (BAAP) — 18 Resolution for India: a pledge to build a safe, prosperous, just, and dignified India.",
-  keywords: ["election", "political party", "India", "campaign", "manifesto"],
+    "Bharatiya Avijit Aawaz Party (BAAP Party) promotes education, employment, equality and social justice in Delhi, Punjab and across India.",
+  keywords: [
+    "Bharatiya Avijit Aawaz Party",
+    "BAAP Party",
+    "BAAP Party India",
+    "Baap Party Punjab",
+    "BAAP Party Official Website",
+    "Avijit Aawaz Party",
+    "BAAP Party Delhi",
+    "BAAP Party Leadership",
+    "BAAP Political Party",
+    "Join BAAP Party",
+    "Political Party in India",
+    "Indian Political Party",
+    "Election Campaign India",
+    "Political Manifesto India",
+    "Indian Democracy",
+    "Public Welfare",
+    "Social Justice",
+    "National Development",
+    "Political Leadership India",
+    "Citizen Participation"
+  ],
 
   icons: { icon: "/favicon.ico" },
 
