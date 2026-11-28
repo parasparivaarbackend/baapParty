@@ -135,7 +135,7 @@ export default function Hero() {
             </p>
             <p className="text-[11px] text-ivory/70">
               {t("Villages reached this year")}
-            </p>
+            </p> 
           </motion.div>
         </motion.div>
       </div>
